@@ -1,0 +1,326 @@
+body 
+  {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+   }
+
+   .navbar {
+    background-color: black;
+    color: white !important; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding:  20px;
+   }
+
+   .h-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 900px;
+    height: 70px;
+   
+}
+.display{
+  width: 50%;
+  height: 45px;
+  margin:  0 auto;
+  margin-top: 50px;
+  text-align: left;
+  border-bottom: 2px solid #f5f2f2d2;
+}
+.displayHeader h3{
+  float: left;
+}
+
+.displayPriceOrder{
+  float: left;
+  margin-left: 48%;
+}
+
+.buttonOrder{
+  width: 100%;
+  float: left;
+}
+
+.OrderGrid{
+  width: 70%;
+  height: 100vh;
+  float: left;
+  padding-left: 5%;
+}
+
+.OrderGrid h2{
+  margin-top: 50px;
+}
+
+.OrderGrid h3{
+  margin: 0;
+  padding: 0;
+}
+
+.TotalGrid {
+  width: 30%;
+  height: 100vh;
+  float: left;
+  background-color: black;
+  padding-top: 10%;
+  border-color: azure;
+  text-align: center;
+}
+
+.TotalGrid input {
+  width: 50%;
+  margin:  0 auto;
+}
+
+.TotalGrid h2{
+ font-size: 50px;
+ font-weight: 100;
+}
+
+.TotalGrid h3{
+  margin-top: 50px;
+  font-weight: 100;
+}
+
+
+.CardOrderDisplay{
+  width: 90%;
+  height: 50px;
+  background-color: azure;
+  border-radius: 5px;
+  color: black;
+  margin-top: 20px;
+}
+
+.CardOrderDisplay p{
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  padding-top: 13px ;
+}
+
+.Ordercard{
+  width: 29%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 15px;
+  float: left;
+  margin: 2%;
+ color: black;
+}
+
+.OrderSelection{
+  width: 60%;
+  float: left;
+  height: 130px;
+}
+
+.OrderControl{
+  height: 130px;
+  width: 40%;
+  float: left;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+ 
+}
+
+
+.button{
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    float: left;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin: 10px; 
+
+ }
+
+ .normal{
+    width: 225px;
+    background-color: #ff4200;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+
+}
+.normal:hover{
+    cursor: pointer;
+    background-color:#ff9001;
+    color: white;
+    border:px solid #ff4200;
+    padding-top: 20px !important;
+ }
+ .inverted{
+    width: 225px;
+     border: 4px solid #ff4200;
+    padding-bottom: 5px;
+    border-color:#ff4200;
+    color: white;
+    }
+.inverted:hover{
+    cursor: pointer;
+    background-color:#ff9001;
+    color: white;
+    }
+.headerr{
+    width: 100%;
+    height: 700px;
+    color: white;
+    background-image:url('../assets/header-sub.jpg');
+    background-position: center;
+    background-size: contain;
+    padding-left: 100px;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.overlay{
+    width: 1530px;
+    height: 700px;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity:1;
+}
+
+.row{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.active{
+    font-weight: bold !important;
+      color: white !important;
+  
+  }
+
+
+.section-head{
+    text-align: center;
+}
+
+
+  .col-box3{
+
+    width: 100%;
+       height: 277px;
+       background-color: lightgrey;
+       text-align: center;
+       margin-top: 5px;
+       
+}
+
+
+.thumbnail1{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/sub\ 1-the_big_ham.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+
+   .thumbnail2{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/sub\ 2-rhe_river_run_.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail3{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/sub\ 3-village_philly.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail4{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/sub\ 4-the_clubhouse.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+
+   .thumbnail5{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/sub\ 5-chicken_parm.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+
+   .thumbnail6{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/sub\ 6-\ the\ meat\ lovers.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail7{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/sub\ 7-veggie-loverz.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail8{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/sub\ 8-\ steak-and-cheese.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+h3{
+    color: white;
+}
+
+.toppings{
+    color: white;
+}
+
+.btn-primary{
+    background-color: #ff4200;
+    width: 50%;
+}
+   footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 200px;
+    padding-top: 50px;
+    float: left;
+   }
+
+   form{
+    width: 50%;
+    margin:  0 auto;
+    margin-top: 50px;
+    color: white;
+}
+
+input{
+    margin-top: 15px;
+}
+
+select{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 15px;
+}
